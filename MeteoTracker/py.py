@@ -86,6 +86,8 @@ def update_weather_image(description):
             image_path += "clear.png"
         elif "overcast clouds" in description.lower():
             image_path += "clouds.png"
+        elif "scattered clouds" in description.lower():
+            image_path += "clouds.png"
         elif "light rain" in description.lower():
             image_path += "drizzle.png"
         elif "mist" in description.lower():
